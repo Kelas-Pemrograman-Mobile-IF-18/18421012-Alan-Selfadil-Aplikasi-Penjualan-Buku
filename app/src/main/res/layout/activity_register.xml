@@ -11,21 +11,12 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="154dp"
-        android:layout_marginVertical="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Register"
         android:textColor="@color/blue"
-        android:textSize="90dp"
+        android:textSize="50dp"
         android:textStyle="bold" />
-
-    <ScrollView
-        android:layout_below="@+id/relatif1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/scroll1">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -49,7 +40,7 @@
                     >
 
                     <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtuserName2"
+                        android:id="@+id/edtUsername"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         />
@@ -59,44 +50,12 @@
                 <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    app:labelText="Password"
                     android:layout_marginTop="10dp"
+                    app:labelText="Nama Lengkap"
                     >
 
                     <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtPassword2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        />
-
-                </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
-
-                <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
-                    android:layout_width="match_parent"
-                    android:layout_height="55dp"
-                    app:labelText="Ulangi Password"
-                    android:layout_marginTop="10dp"
-                    >
-
-                    <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtulangPassword"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        />
-
-                </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
-
-                <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
-                    android:layout_width="match_parent"
-                    android:layout_height="55dp"
-                    app:labelText="Umur"
-                    android:layout_marginTop="10dp"
-                    >
-
-                    <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtUmur"
+                        android:id="@+id/edtNamalengkap"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         />
@@ -106,12 +65,12 @@
                 <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    app:labelText="Alamat"
+                    app:labelText="Email"
                     android:layout_marginTop="10dp"
                     >
 
                     <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtAlamat"
+                        android:id="@+id/edtEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         />
@@ -126,9 +85,25 @@
                     >
 
                     <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                        android:id="@+id/edtTelepon"
+                        android:id="@+id/edtNotelp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        />
+
+                </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+                <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    app:labelText="Password"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
                         />
 
                 </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
@@ -144,7 +119,7 @@
                     app:nb_backgroundColor="@color/colorPrimary"
                     app:nb_focusColor="#B83CC3"
                     app:nb_textColor="#FFF"
-                    android:id="@+id/btnRegis"
+                    android:id="@+id/btnRegister"
                     app:nb_radius="5dp"
                     android:layout_marginTop="20dp"/>
 
@@ -155,12 +130,10 @@
                     android:backgroundTint="@color/white"
                     android:textColor="@color/black"
                     android:background="@null"
-                    android:id="@+id/btnKembali"/>
+                    android:id="@+id/btnKembaliRegistrasi"/>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-
-    </ScrollView>
 
 </LinearLayout>

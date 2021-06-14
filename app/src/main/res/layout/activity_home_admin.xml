@@ -23,6 +23,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="140dp"
                 android:layout_height="150dp"
+                android:id="@+id/carddataBuku"
                 android:clickable="true"
                 app:cardCornerRadius="10dp"
                 android:foreground="?attr/selectableItemBackground">
@@ -60,6 +61,7 @@
                 android:layout_width="140dp"
                 android:layout_height="150dp"
                 android:clickable="true"
+                android:id="@+id/cardInputBuku"
                 app:cardCornerRadius="10dp"
                 android:layout_marginLeft="10dp"
                 android:foreground="?attr/selectableItemBackground">
@@ -114,6 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:id="@+id/cardprofile"
                     android:orientation="vertical">
 
                     <ImageView
@@ -143,6 +146,7 @@
                 android:layout_width="140dp"
                 android:layout_height="150dp"
                 android:clickable="true"
+                android:id="@+id/cardExit"
                 app:cardCornerRadius="10dp"
                 android:layout_marginLeft="10dp"
                 android:foreground="?attr/selectableItemBackground">

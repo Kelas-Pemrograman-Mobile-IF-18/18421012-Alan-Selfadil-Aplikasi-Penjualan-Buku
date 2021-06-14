@@ -45,4 +45,16 @@ dependencies {
 
     //button
     compile 'com.ornach.nobobutton:nobobutton:1.6'
+
+    //volley library
+    implementation 'com.android.volley:volley:1.1.0'
+
+    //Picasso Galery
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Support Design
+    implementation 'com.android.support:design:30.0.0'
+
+    //Karumi Dexter
+    implementation 'com.karumi:dexter:5.0.0'
 }
